@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+
+<main role="main">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">NYCTrainSign API</h1>
+        <p>
+            This site is a reverse engineered version of the control panel behind the now defunct NYCTrainSign. It is not run by the original NYCTrainSign company nor does it have anything to do with the original NYCTrainSign company.
+        </p>
+        <p>
+            Follow the instructions below to connect your sign to the API. Once you have a claim code, use the button below to claim your sign and get the control panel link. 
+        </p>
+        <p><a class="btn btn-primary btn-lg" href="{{ url_for('www.claim') }}" role="button">Claim Sign</a></p>
+      </div>
+    </div>
+
+    <div class="container pt-5">
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Connecting Your Sign</h2>
+                <p>Follow the link below for instructions on connecting your NYCTrainSign to this API.</p>
+                <a class="btn btn-secondary" href="https://github.com/ColdHeat/nycts-api#sign-setup" role="button">Instructions &raquo;</a>
+            </div>
+            <div class="col-md-4">
+                <h2>How This Works</h2>
+                <p>In 2022 I purchased the domain that served the API for NYCTrainSign. I reverse engineered the API and developed an exploit that jailbreaks the sign so that people could control their signs again.</p>
+                <p>For more details about how I got sign and how everything works read my blog post.</p>
+                <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Open Source</h2>
+                <p>The code behind the API as well as the exploit are open source.</p>
+                <p>If you are curious about the <a href="https://github.com/ColdHeat/nycts-unit">code that powered the original NYCTrainSign</a> I have also published it.</p>
+                <p><a class="btn btn-secondary" href="https://github.com/ColdHeat/nycts-api" role="button">Github Repo &raquo;</a></p>
+            </div>
+        </div>
+        <hr>
+    </div>
+</main>
+{% endblock %}

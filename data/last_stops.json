@@ -1,0 +1,106 @@
+{
+    "1": {
+        "N": "Van Cortlandt Park-242 St",
+        "S": "South Ferry"
+    },
+    "2": {
+        "N": "Wakefield-241 St",
+        "S": "Flatbush Av-Brooklyn College"
+    },
+    "3": {
+        "N": "Harlem 148 St",
+        "S": "New Lots Av"
+    },
+    "4": {
+        "N": "Woodlawn",
+        "S": "Crown Hts Utica Av"
+    },
+    "5": {
+        "N": "Eastchester-Dyre Av",
+        "S": "Flatbush Av-Brooklyn College"
+    },
+    "6": {
+        "N": "Pelham Bay Park",
+        "S": "Brooklyn Bridge City Hall"
+    },
+    "7": {
+        "N": "Flushing Main St",
+        "S": "34 St-Hudson Yards"
+    },
+    "7X": {
+        "N": "Flushing-Main St",
+        "S": "34 St-Hudson Yards"
+    },
+    "A": {
+        "N": "Inwood-207 St",
+        "S": "Far Rockaway-Mott Av"
+    },
+    "B": {
+        "N": "Bedford Pk Blvd",
+        "S": "Brighton Beach"
+    },
+    "C": {
+        "N": "168 St",
+        "S": "Euclid Av"
+    },
+    "D": {
+        "N": "Norwood 205 St",
+        "S": "Coney Island-Stillwell Av"
+    },
+    "E": {
+        "N": "Jamaica Center-Parsons/Archer",
+        "S": "World Trade Center"
+    },
+    "F": {
+        "N": "Jamaica-179 St",
+        "S": "Coney Island-Stillwell Av"
+    },
+    "FS": {
+        "N": "Franklin Av",
+        "S": "Prospect Park"
+    },
+    "G": {
+        "N": "Court Sq",
+        "S": "Church Av"
+    },
+    "H": {
+        "N": "Broad Channel",
+        "S": "Rockaway Park-Beach 116 St"
+    },
+    "J": {
+        "N": "Jamaica Center-Parsons/Archer",
+        "S": "Broad St"
+    },
+    "L": {
+        "N": "8 Av",
+        "S": "Canarsie-Rockaway Pkwy"
+    },
+    "M": {
+        "N": "Forest Hills 71 Av",
+        "S": "Middle Village Metropolitan Av"
+    },
+    "N": {
+        "N": "Astoria-Ditmars Blvd",
+        "S": "Coney Island-Stillwell Av"
+    },
+    "Q": {
+        "N": "96 St",
+        "S": "Coney Island-Stillwell Av"
+    },
+    "R": {
+        "N": "Forest Hills 71 Av",
+        "S": "Bay Ridge 95 St"
+    },
+    "S": {
+        "N": "Times Sq-42 St",
+        "S": "Grand Central-42 St"
+    },
+    "SI": {
+        "N": "St. George",
+        "S": "Tottenville"
+    },
+    "W": {
+        "N": "Astoria-Ditmars Blvd",
+        "S": "Whitehall St-South Ferry"
+    }
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<main role="main">
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-3">Claim Sign</h1>
+      <p>
+          Enter the claim code that's shown on your sign
+      </p>
+      <div class="col-md-4 offset-md-4">
+      <form method="POST">
+        <div class="mb-3">
+          <input type="text" class="form-control" name="claim_code">
+          <div class="form-text">Don't know this code? Follow the instructions here.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

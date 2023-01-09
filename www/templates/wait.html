@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main role="main">
+    <div class="container pt-5">
+        <div class="col-md-6 offset-md-3">
+            <div class="alert alert-primary" role="alert">
+                Waiting 10 seconds for sign to refresh. Page will automatically redirect.
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    setTimeout(() => {
+        window.location = `/signs/nycts/{{ sign_id }}`;
+    }, 10000);
+</script>
+{% endblock %}

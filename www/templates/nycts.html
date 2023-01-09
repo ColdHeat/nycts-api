@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<main role="main">
+  <div class="jumbotron text-center">
+    <div class="container pb-5">
+        <h1 class="display-3">{{ sign.config["settings"]["name"] }}</h1>
+        <div class="col-md-4 offset-md-4 text-start pb-5">
+            <div class="alert alert-primary text-center" role="alert">
+                Bookmark this page to control your sign
+            </div>
+            <form method="POST" enctype="multipart/form-data">
+
+                <h2 class="text-start pt-3">Settings</h2>
+
+                <div class="mb-3">
+                    <label>Sign Name</label>
+                    <input type="text" class="form-control" name="name" value="{{ sign.config['settings']['name'] }}">
+                    <div class="form-text">Sign Name. Does not show on sign</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Transition Time</label>
+                    <input type="number" class="form-control" name="transition_time" value="{{ sign.config['settings']['transition_time'] }}">
+                    <div class="form-text">Transition time between frames</div>
+                </div>
+            
+                <div class="mb-3">
+                    <label>Brightness</label>
+                    <select class="form-control" name="brightness">
+                        {% set settings_brightness = sign.config["settings"]["brightness"] %}
+                        {% for n in range(100, 0, -1) %}
+                        <option value="{{ n }}" {% if settings_brightness == n %}selected{% endif %}>{{ n }}</option>
+                        {% endfor %}
+                    </select>
+                    <div class="form-text">Sign Brightness</div>
+                </div>
+
+                <h2 class="text-start pt-3">Custom Text</h2>
+
+                <div class="mb-3">
+                    <label>Custom Text</label>
+                    {% set customtext_enabled = sign.config["customtext"]["enabled"] %}
+                    <select class="form-control" name="customtext_enabled" value="">
+                        <option value="true" {% if customtext_enabled is true %}selected{% endif %}>Enabled</option>
+                        <option value="false" {% if customtext_enabled is false %}selected{% endif %}>Disabled</option>
+                    </select>
+                    <div class="form-text">Enable or Disable Custom Text</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Custom Text Line 1</label>
+                    <input type="text" class="form-control" maxlength="40" name="customtext_line_1" value="{{ sign.config['customtext']['line_1'] }}">
+                    <div class="form-text">Set the Custom Text shown on Line 1</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Custom Text Line 2</label>
+                    <input type="text" class="form-control" maxlength="40" name="customtext_line_2" value="{{ sign.config['customtext']['line_2'] }}">
+                    <div class="form-text">Set the Custom Text shown on Line 2</div>
+                </div>
+
+                <h2 class="text-start pt-3">Subway</h2>
+
+                <div class="mb-3">
+                    <label>Subway</label>
+                    {% set subway_enabled = sign.config["subway"]["enabled"] %}
+                    <select class="form-control" name="subway_enabled">
+                        <option value="true" {% if subway_enabled is true %}selected{% endif %}>Enabled</option>
+                        <option value="false" {% if subway_enabled is false %}selected{% endif %}>Disabled</option>
+                    </select>
+                    <div class="form-text">Enable or Disable Custom Text</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Subway Line</label>
+                    {% set routes = [
+                        ("1", "1"),
+                        ("2", "2"),
+                        ("3", "3"),
+                        ("4", "4"),
+                        ("5", "5"),
+                        ("6", "6"),
+                        ("7", "7"),
+                        ("A", "A"),
+                        ("C", "C"),
+                        ("D", "D"),
+                        ("E", "E"),
+                        ("F", "F"),
+                        ("FS", "S-Franklin"),
+                        ("G", "G"),
+                        ("H", "S-Rockaway"),
+                        ("J", "J"),
+                        ("L", "L"),
+                        ("M", "M"),
+                        ("N", "N"),
+                        ("Q", "Q"),
+                        ("R", "R"),
+                        ("S", "S-42 St"),
+                        ("SI", "SIR"),
+                    ] %}
+                    {% set subway_line = sign.config["subway"]["line"] %}
+                    <select class="form-control" name="subway_line" onchange="lineChange(this)">
+                        {% for route in routes %}
+                            <option value="{{ route[0] }}" {% if route[0] == subway_line %}selected{% endif %}>{{ route[1] }}</option>
+                        {% endfor %}
+                    </select>
+                    <div class="form-text">Set the Custom Text shown on Line 2</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Subway Station</label>
+                    {% set subway_train = sign.config["subway"]["train"] %}
+                    <select class="form-control" name="subway_train" id="subway_train" stop="{{ subway_train }}">
+                    </select>
+                    <div class="form-text">Set the Custom Text shown on Line 2</div>
+                </div>
+
+                <h2 class="text-start pt-3">Weather</h2>
+
+                <div class="mb-3">
+                    <label>Weather</label>
+                    {% set weather_enabled = sign.config["weather"]["enabled"] %}
+                    <select class="form-control" name="weather_enabled">
+                        <option value="true" {% if weather_enabled is true %}selected{% endif %}>Enabled</option>
+                        <option value="false" {% if weather_enabled is false %}selected{% endif %}>Disabled</option>
+                    </select>
+                    <div class="form-text">Enable or Disable Weather</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Weather Zip Code</label>
+                    <input type="text" pattern="[0-9]{5}" class="form-control" name="weather_zip_code" maxlength="5" value="{{ sign.config['weather']['zip_code'] }}">
+                    <div class="form-text">Enable or Disable Weather</div>
+                </div>
+
+                <h2 class="text-start pt-3">Logo</h2>
+
+                <div class="mb-3">
+                    <label>Logo</label>
+                    {% set logo_enabled = sign.config["logo"]["enabled"] %}
+                    <select class="form-control" name="logo_enabled">
+                        <option value="true" {% if logo_enabled is true %}selected{% endif %}>Enabled</option>
+                        <option value="false" {% if logo_enabled is false %}selected{% endif %}>Disabled</option>
+                    </select>
+                    <div class="form-text">Enable or Disable Logo</div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Image</label>
+                    <input class="form-control" type="file" name="logo">
+                    <div class="form-text">Image to display. Preferably 128x32</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Update
+                </button>
+            </form>
+        </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+{% set subway_line = sign.config["subway"]["line"] %}
+<script>
+    let STOPS = {{ STOPS | tojson }};
+    function getStopsByLine(line) {
+        let stops = STOPS.filter(stop => stop.line == line);
+        stops = stops.filter((value, index, self) =>
+            index === self.findIndex((stop) => (
+                stop.id === value.id
+            ))
+        )
+        return stops;
+    }
+    function lineChange(obj) {
+        let subway_train = document.querySelector("#subway_train");
+        let line = obj.value;
+        let stops = getStopsByLine(line);
+
+        subway_train.innerHTML = ""; 
+        subway_train.innerHTML += `<option>--</option>`; 
+
+        stops.forEach(stop => {
+            subway_train.innerHTML += `<option value="${stop.stop}">${stop.name}</option>`; 
+        });
+
+        let stop = subway_train.getAttribute("stop");
+        if (stop) {
+            subway_train.value = stop;
+        }
+    }
+    function selectStation(stationId) {
+        let subway_train = document.querySelector("#subway_train");
+        subway_train.value=stationId;
+    }
+    lineChange({"value": {{ subway_line | tojson }} });
+</script>
+{% endblock %}

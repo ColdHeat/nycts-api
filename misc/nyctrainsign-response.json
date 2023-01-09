@@ -1,0 +1,62 @@
+{
+	"data": {
+		"N": {
+			"schedule": [
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 10,
+					"departureTime": 1506617365
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 19,
+					"departureTime": 1506617928
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 28,
+					"departureTime": 1506618477
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 38,
+					"departureTime": 1506619077
+				}
+			],
+			"term": "71 AV"
+		},
+		"S": {
+			"schedule": [
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 2,
+					"departureTime": 1506616796
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 7,
+					"departureTime": 1506617217
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 13,
+					"departureTime": 1506617547
+				},
+				{
+					"routeId": "R",
+					"delay": null,
+					"arrivalTime": 21,
+					"departureTime": 1506618053
+				}
+			],
+			"term": "BAY RIDGE"
+		}
+	}
+}

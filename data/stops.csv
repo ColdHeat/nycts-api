@@ -1,0 +1,964 @@
+id,name,stop,line
+07e1,103 St,119,1
+0d51,116 St - Columbia University,117,1
+c451,125 St,116,1
+2b44,137 St - City College,115,1
+65de,14 St,132,1
+5fd0,145 St,114,1
+7327,157 St,113,1
+e467,168 St - Washington Hts,112,1
+e467,168 St - Washington Hts,A09,1
+1afa,18 St,131,1
+698d,181 St,111,1
+5f93,191 St,110,1
+a3c6,207 St,108,1
+a97d,215 St,107,1
+9b86,23 St,130,1
+c9e1,231 St,104,1
+6974,238 St,103,1
+d1f4,28 St,129,1
+76dc,34 St - Penn Station,128,1
+0690,50 St,126,1
+7a18,59 St - Columbus Circle,125,1
+7a18,59 St - Columbus Circle,A24,1
+c8ff,66 St - Lincoln Center,124,1
+202c,72 St,123,1
+a0a0,79 St,122,1
+4c56,86 St,121,1
+da4f,96 St,120,1
+7f1d,Canal St,135,1
+5ef0,Cathedral Pkwy,118,1
+3988,Chambers St,137,1
+9fc3,Christopher St - Sheridan Sq,133,1
+013d,Cortlandt St,138,1
+2723,Dyckman St,109,1
+42a0,Franklin St,136,1
+0252,Houston St,134,1
+f093,Marble Hill - 225 St,106,1
+e00d,Rector St,139,1
+a8ba,South Ferry,142,1
+84ac,Times Sq - 42 St,127,1
+84ac,Times Sq - 42 St,725,1
+84ac,Times Sq - 42 St,902,1
+84ac,Times Sq - 42 St,R16,1
+38b3,Van Cortlandt Park - 242 St,101,1
+9cfd,116 St,226,2
+d1c3,125 St,225,2
+13fe,135 St,224,2
+65de,14 St,132,2
+64f8,149 St - Grand Concourse,222,2
+64f8,149 St - Grand Concourse,415,2
+3b8a,174 St,215,2
+69ad,219 St,207,2
+7eab,225 St,206,2
+eae2,233 St,205,2
+060a,3 Av - 149 St,221,2
+76dc,34 St - Penn Station,128,2
+202c,72 St,123,2
+da4f,96 St,120,2
+6f3e,Allerton Av,210,2
+d2c6,Atlantic Av - Barclays Ctr,235,2
+d2c6,Atlantic Av - Barclays Ctr,D24,2
+d2c6,Atlantic Av - Barclays Ctr,R31,2
+0116,Bergen St,236,2
+0266,Beverly Rd,245,2
+4e75,Borough Hall / Court St,232,2
+4e75,Borough Hall / Court St,423,2
+4e75,Borough Hall / Court St,R28,2
+1534,Bronx Park East,212,2
+b1d1,Burke Av,209,2
+705f,Central Park North (110 St),227,2
+3988,Chambers St,137,2
+9188,Church Av,244,2
+9b04,Clark St,231,2
+979d,E 180 St,213,2
+ac1d,Eastern Pkwy - Brooklyn Museum,238,2
+3cec,Flatbush Av - Brooklyn College,247,2
+a301,Franklin Av / Botanic Garden,239,2
+a301,Franklin Av / Botanic Garden,S04,2
+45fb,Freeman St,216,2
+3cf6,Fulton St,229,2
+3cf6,Fulton St,418,2
+3cf6,Fulton St,A38,2
+3cf6,Fulton St,M22,2
+539f,Grand Army Plaza,237,2
+091d,Gun Hill Rd,208,2
+e165,Hoyt St,233,2
+e96e,Intervale Av,218,2
+ec8c,Jackson Av,220,2
+274a,Nereid Av,204,2
+289d,Nevins St,234,2
+38db,Newkirk Av,246,2
+74db,Park Pl,228,2
+eb16,Pelham Pkwy,211,2
+f340,President St,241,2
+c0e1,Prospect Av,219,2
+63dc,Simpson St,217,2
+e4a6,Sterling St,242,2
+84ac,Times Sq - 42 St,127,2
+84ac,Times Sq - 42 St,725,2
+84ac,Times Sq - 42 St,902,2
+84ac,Times Sq - 42 St,R16,2
+757b,Wakefield - 241 St,201,2
+6da9,Wall St,230,2
+ca46,West Farms Sq - E Tremont Av,214,2
+cb70,Winthrop St,243,2
+9cfd,116 St,226,3
+d1c3,125 St,225,3
+13fe,135 St,224,3
+65de,14 St,132,3
+577b,145 St,302,3
+76dc,34 St - Penn Station,128,3
+202c,72 St,123,3
+da4f,96 St,120,3
+d2c6,Atlantic Av - Barclays Ctr,235,3
+d2c6,Atlantic Av - Barclays Ctr,D24,3
+d2c6,Atlantic Av - Barclays Ctr,R31,3
+0116,Bergen St,236,3
+4e75,Borough Hall / Court St,232,3
+4e75,Borough Hall / Court St,423,3
+4e75,Borough Hall / Court St,R28,3
+705f,Central Park North (110 St),227,3
+3988,Chambers St,137,3
+9b04,Clark St,231,3
+6c98,Crown Hts - Utica Av,250,3
+ac1d,Eastern Pkwy - Brooklyn Museum,238,3
+a301,Franklin Av / Botanic Garden,239,3
+a301,Franklin Av / Botanic Garden,S04,3
+3cf6,Fulton St,229,3
+3cf6,Fulton St,418,3
+3cf6,Fulton St,A38,3
+3cf6,Fulton St,M22,3
+539f,Grand Army Plaza,237,3
+34ed,Harlem - 148 St,301,3
+e165,Hoyt St,233,3
+077e,Kingston Av,249,3
+032e,Livonia Av / Junius St,254,3
+032e,Livonia Av / Junius St,L26,3
+289d,Nevins St,234,3
+d964,New Lots Av,257,3
+621b,Nostrand Av,248,3
+74db,Park Pl,228,3
+fe13,Pennsylvania Av,255,3
+c24c,Rockaway Av,253,3
+03c6,Saratoga Av,252,3
+19f3,Sutter Av - Rutland Rd,251,3
+84ac,Times Sq - 42 St,127,3
+84ac,Times Sq - 42 St,725,3
+84ac,Times Sq - 42 St,902,3
+84ac,Times Sq - 42 St,R16,3
+f718,Van Siclen Av,256,3
+6da9,Wall St,230,3
+85fc,125 St,621,4
+8fe0,138 St - Grand Concourse,416,4
+64f8,149 St - Grand Concourse,222,4
+64f8,149 St - Grand Concourse,415,4
+de32,161 St - Yankee Stadium,414,4
+de32,161 St - Yankee Stadium,D11,4
+0deb,167 St,413,4
+b922,170 St,412,4
+1068,176 St,410,4
+0d0f,183 St,408,4
+4564,86 St,626,4
+d2c6,Atlantic Av - Barclays Ctr,235,4
+d2c6,Atlantic Av - Barclays Ctr,D24,4
+d2c6,Atlantic Av - Barclays Ctr,R31,4
+bbcb,Bedford Park Blvd - Lehman College,405,4
+4e75,Borough Hall / Court St,232,4
+4e75,Borough Hall / Court St,423,4
+4e75,Borough Hall / Court St,R28,4
+b6f0,Bowling Green,420,4
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,4
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,4
+a96b,Burnside Av,409,4
+6c98,Crown Hts - Utica Av,250,4
+f4f6,Fordham Rd,407,4
+a301,Franklin Av / Botanic Garden,239,4
+a301,Franklin Av / Botanic Garden,S04,4
+3cf6,Fulton St,229,4
+3cf6,Fulton St,418,4
+3cf6,Fulton St,A38,4
+3cf6,Fulton St,M22,4
+87d2,Grand Central - 42 St,631,4
+87d2,Grand Central - 42 St,723,4
+87d2,Grand Central - 42 St,901,4
+8cb2,Kingsbridge Rd,406,4
+5f44,Lexington Av/59 St,629,4
+5f44,Lexington Av/59 St,R11,4
+69cb,Mosholu Pkwy,402,4
+17d6,Mt Eden Av,411,4
+289d,Nevins St,234,4
+82bd,Union Sq - 14 St,635,4
+82bd,Union Sq - 14 St,L03,4
+82bd,Union Sq - 14 St,R20,4
+7eac,Wall St,419,4
+816b,Woodlawn,401,4
+85fc,125 St,621,5
+8fe0,138 St - Grand Concourse,416,5
+64f8,149 St - Grand Concourse,222,5
+64f8,149 St - Grand Concourse,415,5
+3b8a,174 St,215,5
+060a,3 Av - 149 St,221,5
+4564,86 St,626,5
+d2c6,Atlantic Av - Barclays Ctr,235,5
+d2c6,Atlantic Av - Barclays Ctr,D24,5
+d2c6,Atlantic Av - Barclays Ctr,R31,5
+b5b4,Baychester Av,502,5
+0266,Beverly Rd,245,5
+4e75,Borough Hall / Court St,232,5
+4e75,Borough Hall / Court St,423,5
+4e75,Borough Hall / Court St,R28,5
+b6f0,Bowling Green,420,5
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,5
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,5
+9188,Church Av,244,5
+979d,E 180 St,213,5
+5b69,Eastchester - Dyre Av,501,5
+3cec,Flatbush Av - Brooklyn College,247,5
+a301,Franklin Av / Botanic Garden,239,5
+a301,Franklin Av / Botanic Garden,S04,5
+45fb,Freeman St,216,5
+3cf6,Fulton St,229,5
+3cf6,Fulton St,418,5
+3cf6,Fulton St,A38,5
+3cf6,Fulton St,M22,5
+87d2,Grand Central - 42 St,631,5
+87d2,Grand Central - 42 St,723,5
+87d2,Grand Central - 42 St,901,5
+285e,Gun Hill Rd,503,5
+e96e,Intervale Av,218,5
+ec8c,Jackson Av,220,5
+5f44,Lexington Av/59 St,629,5
+5f44,Lexington Av/59 St,R11,5
+e8c0,Morris Park,505,5
+289d,Nevins St,234,5
+38db,Newkirk Av,246,5
+b337,Pelham Pkwy,504,5
+f340,President St,241,5
+c0e1,Prospect Av,219,5
+63dc,Simpson St,217,5
+e4a6,Sterling St,242,5
+82bd,Union Sq - 14 St,635,5
+82bd,Union Sq - 14 St,L03,5
+82bd,Union Sq - 14 St,R20,5
+7eac,Wall St,419,5
+ca46,West Farms Sq - E Tremont Av,214,5
+cb70,Winthrop St,243,5
+48ab,103 St,624,6
+a733,110 St,623,6
+3871,116 St,622,6
+85fc,125 St,621,6
+6766,23 St,634,6
+26dd,28 St,633,6
+cdc0,3 Av - 138 St,619,6
+abd8,33 St,632,6
+fe8e,51 St / Lexington Av/53 St,630,6
+fe8e,51 St / Lexington Av/53 St,F11,6
+42e7,68 St - Hunter College,628,6
+185c,77 St,627,6
+4564,86 St,626,6
+2335,96 St,625,6
+c5ab,Astor Pl,636,6
+31e9,Broadway-Lafayette St / Bleecker St,637,6
+31e9,Broadway-Lafayette St / Bleecker St,D21,6
+eb6f,Brook Av,618,6
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,6
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,6
+c399,Buhre Av,602,6
+7f0a,Canal St,639,6
+7f0a,Canal St,M20,6
+7f0a,Canal St,Q01,6
+7f0a,Canal St,R23,6
+dc82,Castle Hill Av,607,6
+5d44,Cypress Av,617,6
+7750,E 143 St - St Mary's St,616,6
+58d4,E 149 St,615,6
+8ebd,Elder Av,611,6
+87d2,Grand Central - 42 St,631,6
+87d2,Grand Central - 42 St,723,6
+87d2,Grand Central - 42 St,901,6
+f29c,Hunts Point Av,613,6
+5f44,Lexington Av/59 St,629,6
+5f44,Lexington Av/59 St,R11,6
+851d,Longwood Av,614,6
+d86e,Middletown Rd,603,6
+00ac,Morrison Av- Sound View,610,6
+996a,Parkchester,608,6
+b2f6,Pelham Bay Park,601,6
+4c27,Spring St,638,6
+d7a7,St Lawrence Av,609,6
+82bd,Union Sq - 14 St,635,6
+82bd,Union Sq - 14 St,L03,6
+82bd,Union Sq - 14 St,R20,6
+9cf8,Westchester Sq - E Tremont Av,604,6
+f76a,Whitlock Av,612,6
+44c4,Zerega Av,606,6
+48ab,103 St,624,6X
+a733,110 St,623,6X
+3871,116 St,622,6X
+85fc,125 St,621,6X
+6766,23 St,634,6X
+26dd,28 St,633,6X
+cdc0,3 Av - 138 St,619,6X
+abd8,33 St,632,6X
+fe8e,51 St / Lexington Av/53 St,630,6X
+fe8e,51 St / Lexington Av/53 St,F11,6X
+42e7,68 St - Hunter College,628,6X
+185c,77 St,627,6X
+4564,86 St,626,6X
+2335,96 St,625,6X
+c5ab,Astor Pl,636,6X
+31e9,Broadway-Lafayette St / Bleecker St,637,6X
+31e9,Broadway-Lafayette St / Bleecker St,D21,6X
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,6X
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,6X
+c399,Buhre Av,602,6X
+7f0a,Canal St,639,6X
+7f0a,Canal St,M20,6X
+7f0a,Canal St,Q01,6X
+7f0a,Canal St,R23,6X
+dc82,Castle Hill Av,607,6X
+87d2,Grand Central - 42 St,631,6X
+87d2,Grand Central - 42 St,723,6X
+87d2,Grand Central - 42 St,901,6X
+f29c,Hunts Point Av,613,6X
+5f44,Lexington Av/59 St,629,6X
+5f44,Lexington Av/59 St,R11,6X
+d86e,Middletown Rd,603,6X
+996a,Parkchester,608,6X
+b2f6,Pelham Bay Park,601,6X
+4c27,Spring St,638,6X
+82bd,Union Sq - 14 St,635,6X
+82bd,Union Sq - 14 St,L03,6X
+82bd,Union Sq - 14 St,R20,6X
+9cf8,Westchester Sq - E Tremont Av,604,6X
+44c4,Zerega Av,606,6X
+9c82,103 St - Corona Plaza,706,7
+4a47,111 St,705,7
+e7f8,33 St,716,7
+0d31,34 St - 11 Av,726,7
+8df7,40 St,715,7
+d142,46 St,714,7
+7f11,5 Av,724,7
+07c5,52 St,713,7
+6081,69 St,711,7
+c6a0,74 St - Broadway - Roosevelt Av,710,7
+c6a0,74 St - Broadway - Roosevelt Av,G14,7
+1ecf,82 St - Jackson Hts,709,7
+ae0e,90 St - Elmhurst Av,708,7
+65cd,Court Sq,719,7
+65cd,Court Sq,F09,7
+65cd,Court Sq,G22,7
+b4a5,Flushing - Main St,701,7
+87d2,Grand Central - 42 St,631,7
+87d2,Grand Central - 42 St,723,7
+87d2,Grand Central - 42 St,901,7
+5f2c,Hunters Point Av,720,7
+500e,Junction Blvd,707,7
+b1ee,Mets - Willets Point,702,7
+66ce,Queensboro Plaza,718,7
+66ce,Queensboro Plaza,R09,7
+84ac,Times Sq - 42 St,127,7
+84ac,Times Sq - 42 St,725,7
+84ac,Times Sq - 42 St,902,7
+84ac,Times Sq - 42 St,R16,7
+aba3,Vernon Blvd - Jackson Av,721,7
+19bc,Woodside - 61 St,712,7
+6d6a,104 St,A63,A
+6683,111 St,A64,A
+caba,125 St,A15,A
+449e,145 St,A12,A
+449e,145 St,D13,A
+e467,168 St - Washington Hts,112,A
+e467,168 St - Washington Hts,A09,A
+f73c,175 St,A07,A
+b62b,181 St,A06,A
+0d7d,190 St,A05,A
+3927,34 St - Penn Station,A28,A
+0602,42 St - Port Authority Bus Terminal,A27,A
+7a18,59 St - Columbus Circle,125,A
+7a18,59 St - Columbus Circle,A24,A
+6a30,8 Av / 14 St,A31,A
+6a30,8 Av / 14 St,L01,A
+8bc9,80 St,A59,A
+3cee,88 St,A60,A
+fe2e,Aqueduct - N Conduit Av,H02,A
+61f2,Aqueduct Racetrack,H01,A
+a4b6,Beach 25 St,H10,A
+6d91,Beach 36 St,H09,A
+eee0,Beach 44 St,H08,A
+44f4,Beach 60 St,H07,A
+e8b3,Beach 67 St,H06,A
+ef66,Broad Channel,H04,A
+0731,Broadway Jct,A51,A
+0731,Broadway Jct,J27,A
+0731,Broadway Jct,L22,A
+490c,Canal St,A34,A
+f537,Chambers St,A36,A
+a7ee,Dyckman St,A03,A
+83a0,Euclid Av,A55,A
+c4cf,Far Rockaway - Mott Av,H11,A
+3cf6,Fulton St,229,A
+3cf6,Fulton St,418,A
+3cf6,Fulton St,A38,A
+3cf6,Fulton St,M22,A
+2a59,Grant Av,A57,A
+8e04,High St,A40,A
+4c5f,Howard Beach - JFK Airport,H03,A
+ec1f,Hoyt - Schermerhorn Sts,A42,A
+5c68,Inwood - 207 St,A02,A
+923c,Jay St - MetroTech,A41,A
+923c,Jay St - MetroTech,R29,A
+1e5c,Nostrand Av,A46,A
+5b74,Ozone Park - Lefferts Blvd,A65,A
+1322,Rockaway Blvd,A61,A
+145c,Utica Av,A48,A
+47ae,W 4 St,A32,A
+47ae,W 4 St,D20,A
+bed9,103 St,A18,B
+e801,116 St,A16,B
+caba,125 St,A15,B
+43ba,135 St,A14,B
+449e,145 St,A12,B
+449e,145 St,D13,B
+6854,34 St - Herald Sq,D17,B
+6854,34 St - Herald Sq,R17,B
+6fd9,42 St - Bryant Pk,D16,B
+0cca,47-50 Sts - Rockefeller Ctr,D15,B
+7a18,59 St - Columbus Circle,125,B
+7a18,59 St - Columbus Circle,A24,B
+7f29,7 Av,D25,B
+b8f3,7 Av,D14,B
+8d93,72 St,A22,B
+b0bd,81 St - Museum of Natural History,A21,B
+ae80,86 St,A20,B
+032a,96 St,A19,B
+d2c6,Atlantic Av - Barclays Ctr,235,B
+d2c6,Atlantic Av - Barclays Ctr,D24,B
+d2c6,Atlantic Av - Barclays Ctr,R31,B
+0132,Brighton Beach,D40,B
+31e9,Broadway-Lafayette St / Bleecker St,637,B
+31e9,Broadway-Lafayette St / Bleecker St,D21,B
+10c1,Cathedral Pkwy (110 St),A17,B
+b2e2,Church Av,D28,B
+52ed,DeKalb Av,R30,B
+5397,Grand St,D22,B
+13fd,Kings Hwy,D35,B
+7268,Newkirk Plaza,D31,B
+cf15,Prospect Park,D26,B
+72e2,Sheepshead Bay,D39,B
+47ae,W 4 St,A32,B
+47ae,W 4 St,D20,B
+bed9,103 St,A18,C
+e801,116 St,A16,C
+caba,125 St,A15,C
+43ba,135 St,A14,C
+449e,145 St,A12,C
+449e,145 St,D13,C
+f4eb,155 St,A11,C
+4657,163 St - Amsterdam Av,A10,C
+e467,168 St - Washington Hts,112,C
+e467,168 St - Washington Hts,A09,C
+1d54,23 St,A30,C
+3927,34 St - Penn Station,A28,C
+0602,42 St - Port Authority Bus Terminal,A27,C
+0e0a,50 St,A25,C
+7a18,59 St - Columbus Circle,125,C
+7a18,59 St - Columbus Circle,A24,C
+8d93,72 St,A22,C
+6a30,8 Av / 14 St,A31,C
+6a30,8 Av / 14 St,L01,C
+b0bd,81 St - Museum of Natural History,A21,C
+ae80,86 St,A20,C
+032a,96 St,A19,C
+0731,Broadway Jct,A51,C
+0731,Broadway Jct,J27,C
+0731,Broadway Jct,L22,C
+490c,Canal St,A34,C
+10c1,Cathedral Pkwy (110 St),A17,C
+f537,Chambers St,A36,C
+18c4,Clinton - Washington Avs,A44,C
+83a0,Euclid Av,A55,C
+d1f3,Franklin Av,A45,C
+d1f3,Franklin Av,S01,C
+3cf6,Fulton St,229,C
+3cf6,Fulton St,418,C
+3cf6,Fulton St,A38,C
+3cf6,Fulton St,M22,C
+8e04,High St,A40,C
+ec1f,Hoyt - Schermerhorn Sts,A42,C
+923c,Jay St - MetroTech,A41,C
+923c,Jay St - MetroTech,R29,C
+8f6d,Kingston - Throop Avs,A47,C
+2526,Lafayette Av,A43,C
+0e83,Liberty Av,A52,C
+1e5c,Nostrand Av,A46,C
+a3f2,Ralph Av,A49,C
+973e,Rockaway Av,A50,C
+e960,Shepherd Av,A54,C
+ebc5,Spring St,A33,C
+145c,Utica Av,A48,C
+ecf3,Van Siclen Av,A53,C
+47ae,W 4 St,A32,C
+47ae,W 4 St,D20,C
+caba,125 St,A15,D
+449e,145 St,A12,D
+449e,145 St,D13,D
+75b5,155 St,D12,D
+de32,161 St - Yankee Stadium,414,D
+de32,161 St - Yankee Stadium,D11,D
+7751,167 St,D10,D
+f484,170 St,D09,D
+3f99,174-175 Sts,D08,D
+6cec,18 Av,B19,D
+8fad,182-183 Sts,D06,D
+c643,20 Av,B20,D
+5511,25 Av,B22,D
+6854,34 St - Herald Sq,D17,D
+6854,34 St - Herald Sq,R17,D
+38c3,36 St,R36,D
+6fd9,42 St - Bryant Pk,D16,D
+0cca,47-50 Sts - Rockefeller Ctr,D15,D
+530d,50 St,B14,D
+b76c,55 St,B15,D
+7a18,59 St - Columbus Circle,125,D
+7a18,59 St - Columbus Circle,A24,D
+c4f1,62 St / New Utrecht Av,B16,D
+c4f1,62 St / New Utrecht Av,N04,D
+b8f3,7 Av,D14,D
+6af5,71 St,B17,D
+7796,79 St,B18,D
+8acf,9 Av,B12,D
+d2c6,Atlantic Av - Barclays Ctr,235,D
+d2c6,Atlantic Av - Barclays Ctr,D24,D
+d2c6,Atlantic Av - Barclays Ctr,R31,D
+b81d,Bay 50 St,B23,D
+68cf,Bay Pkwy,B21,D
+6b9a,Bedford Park Blvd,D03,D
+31e9,Broadway-Lafayette St / Bleecker St,637,D
+31e9,Broadway-Lafayette St / Bleecker St,D21,D
+48f0,Coney Island - Stillwell Av,D43,D
+5256,Fordham Rd,D05,D
+ed90,Fort Hamilton Pkwy,B13,D
+5397,Grand St,D22,D
+5a85,Kingsbridge Rd,D04,D
+168d,Norwood - 205 St,D01,D
+8714,Tremont Av,D07,D
+47ae,W 4 St,A32,D
+47ae,W 4 St,D20,D
+0161,14 St / 6 Av,D19,E
+0161,14 St / 6 Av,L02,E
+7da0,21 St - Queensbridge,B04,E
+1ccf,23 St,D18,E
+6854,34 St - Herald Sq,D17,E
+6854,34 St - Herald Sq,R17,E
+6fd9,42 St - Bryant Pk,D16,E
+0cca,47-50 Sts - Rockefeller Ctr,D15,E
+5224,57 St,B10,E
+c6a0,74 St - Broadway - Roosevelt Av,710,E
+c6a0,74 St - Broadway - Roosevelt Av,G14,E
+490c,Canal St,A34,E
+87ff,Forest Hills - 71 Av,G08,E
+55b7,Jamaica - Van Wyck,G07,E
+b142,Jamaica Center - Parsons/Archer,G05,E
+4bf3,Kew Gardens - Union Tpke,F06,E
+ab3d,Lexington Av/63 St,B08,E
+4edc,Roosevelt Island,B06,E
+ebc5,Spring St,A33,E
+eeb4,Sutphin Blvd - Archer Av - JFK Airport,G06,E
+47ae,W 4 St,A32,E
+47ae,W 4 St,D20,E
+1941,World Trade Center,E01,E
+0161,14 St / 6 Av,D19,F
+0161,14 St / 6 Av,L02,F
+abf9,15 St - Prospect Park,F25,F
+c824,169 St,F02,F
+81e2,18 Av,F30,F
+2468,2 Av,F14,F
+7da0,21 St - Queensbridge,B04,F
+1ccf,23 St,D18,F
+6854,34 St - Herald Sq,D17,F
+6854,34 St - Herald Sq,R17,F
+a9a9,4 Av / 9 St,F23,F
+a9a9,4 Av / 9 St,R33,F
+6fd9,42 St - Bryant Pk,D16,F
+0cca,47-50 Sts - Rockefeller Ctr,D15,F
+5224,57 St,B10,F
+ebd7,7 Av,F24,F
+c6a0,74 St - Broadway - Roosevelt Av,710,F
+c6a0,74 St - Broadway - Roosevelt Av,G14,F
+2f5d,75 Av,F07,F
+020d,Avenue I,F31,F
+1df9,Avenue N,F33,F
+26e0,Avenue P,F34,F
+4c79,Avenue U,F36,F
+a0e7,Avenue X,F38,F
+44ad,Bay Pkwy,F32,F
+fc33,Bergen St,F20,F
+1d93,Briarwood - Van Wyck Blvd,F05,F
+31e9,Broadway-Lafayette St / Bleecker St,637,F
+31e9,Broadway-Lafayette St / Bleecker St,D21,F
+77e9,Carroll St,F21,F
+92eb,Church Av,F27,F
+48f0,Coney Island - Stillwell Av,D43,F
+0a81,Delancey St / Essex St,F15,F
+0a81,Delancey St / Essex St,M18,F
+7075,Ditmas Av,F29,F
+56d8,East Broadway,F16,F
+87ff,Forest Hills - 71 Av,G08,F
+f618,Fort Hamilton Pkwy,F26,F
+bfe1,Jamaica - 179 St,F01,F
+923c,Jay St - MetroTech,A41,F
+923c,Jay St - MetroTech,R29,F
+4bf3,Kew Gardens - Union Tpke,F06,F
+078c,Kings Hwy,F35,F
+ab3d,Lexington Av/63 St,B08,F
+1f40,Neptune Av,F39,F
+df86,Parsons Blvd,F03,F
+4edc,Roosevelt Island,B06,F
+7fa0,Smith - 9 Sts,F22,F
+95cd,Sutphin Blvd,F04,F
+47ae,W 4 St,A32,F
+47ae,W 4 St,D20,F
+099d,W 8 St - NY Aquarium,D42,F
+810b,York St,F18,F
+d1f3,Franklin Av,A45,FS
+d1f3,Franklin Av,S01,FS
+a301,Franklin Av / Botanic Garden,239,FS
+a301,Franklin Av / Botanic Garden,S04,FS
+e820,Park Pl,S03,FS
+cf15,Prospect Park,D26,FS
+abf9,15 St - Prospect Park,F25,G
+c185,21 St,G24,G
+a9a9,4 Av / 9 St,F23,G
+a9a9,4 Av / 9 St,R33,G
+ebd7,7 Av,F24,G
+b994,Bedford - Nostrand Avs,G33,G
+fc33,Bergen St,F20,G
+f58d,Broadway,G30,G
+77e9,Carroll St,F21,G
+92eb,Church Av,F27,G
+0920,Classon Av,G34,G
+69ba,Clinton - Washington Avs,G35,G
+65cd,Court Sq,719,G
+65cd,Court Sq,F09,G
+65cd,Court Sq,G22,G
+31b9,Flushing Av,G31,G
+f618,Fort Hamilton Pkwy,F26,G
+7982,Fulton St,G36,G
+b063,Greenpoint Av,G26,G
+ec1f,Hoyt - Schermerhorn Sts,A42,G
+1512,Metropolitan Av / Lorimer St,G29,G
+1512,Metropolitan Av / Lorimer St,L10,G
+3e9b,Myrtle - Willoughby Avs,G32,G
+e3da,Nassau Av,G28,G
+7fa0,Smith - 9 Sts,F22,G
+232f,Beach 105 St,H14,H
+5eb7,Beach 90 St,H12,H
+170d,Beach 98 St,H13,H
+ef66,Broad Channel,H04,H
+e4ac,Broad Channel,H19,H
+4de0,Rockaway Park - Beach 116 St,H15,H
+c5f7,104 St,J14,J
+6898,111 St,J13,J
+f53a,121 St,J12,J
+3a03,75 St,J17,J
+47d7,85 St - Forest Pkwy,J16,J
+5b67,Alabama Av,J24,J
+c7ad,Bowery,M19,J
+392c,Broad St,M23,J
+0731,Broadway Jct,A51,J
+0731,Broadway Jct,J27,J
+0731,Broadway Jct,L22,J
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,J
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,J
+7f0a,Canal St,639,J
+7f0a,Canal St,M20,J
+7f0a,Canal St,Q01,J
+7f0a,Canal St,R23,J
+02f1,Chauncey St,J28,J
+1378,Cleveland St,J22,J
+97a6,Crescent St,J20,J
+ce2d,Cypress Hills,J19,J
+0a81,Delancey St / Essex St,F15,J
+0a81,Delancey St / Essex St,M18,J
+e9b2,Flushing Av,M12,J
+3cf6,Fulton St,229,J
+3cf6,Fulton St,418,J
+3cf6,Fulton St,A38,J
+3cf6,Fulton St,M22,J
+9910,Gates Av,J30,J
+bba2,Halsey St,J29,J
+5ce2,Hewes St,M14,J
+b142,Jamaica Center - Parsons/Archer,G05,J
+6d12,Kosciuszko St,J31,J
+f25c,Lorimer St,M13,J
+f961,Marcy Av,M16,J
+8942,Myrtle Av,M11,J
+f4ad,Norwood Av,J21,J
+eeb4,Sutphin Blvd - Archer Av - JFK Airport,G06,J
+8f24,Van Siclen Av,J23,J
+8a32,Woodhaven Blvd,J15,J
+5492,1 Av,L06,L
+0161,14 St / 6 Av,D19,L
+0161,14 St / 6 Av,L02,L
+5d15,3 Av,L05,L
+6a30,8 Av / 14 St,A31,L
+6a30,8 Av / 14 St,L01,L
+2489,Atlantic Av,L24,L
+ce97,Bedford Av,L08,L
+0731,Broadway Jct,A51,L
+0731,Broadway Jct,J27,L
+0731,Broadway Jct,L22,L
+3439,Bushwick Av - Aberdeen St,L21,L
+4029,Canarsie - Rockaway Pkwy,L29,L
+d2ee,DeKalb Av,L16,L
+d154,E 105 St,L28,L
+8e7e,Graham Av,L11,L
+7e59,Grand St,L12,L
+5b18,Halsey St,L19,L
+8a7f,Jefferson St,L15,L
+032e,Livonia Av / Junius St,254,L
+032e,Livonia Av / Junius St,L26,L
+1512,Metropolitan Av / Lorimer St,G29,L
+1512,Metropolitan Av / Lorimer St,L10,L
+5194,Montrose Av,L13,L
+1e7f,Morgan Av,L14,L
+f145,Myrtle - Wyckoff Avs,L17,L
+f145,Myrtle - Wyckoff Avs,M08,L
+dde6,New Lots Av,L27,L
+ea88,Sutter Av,L25,L
+82bd,Union Sq - 14 St,635,L
+82bd,Union Sq - 14 St,L03,L
+82bd,Union Sq - 14 St,R20,L
+0916,Wilson Av,L20,L
+c7ad,Bowery,M19,M
+18ca,Brooklyn Bridge - City Hall / Chambers St,640,M
+18ca,Brooklyn Bridge - City Hall / Chambers St,M21,M
+7f0a,Canal St,639,M
+7f0a,Canal St,M20,M
+7f0a,Canal St,Q01,M
+7f0a,Canal St,R23,M
+c415,Central Av,M10,M
+0a81,Delancey St / Essex St,F15,M
+0a81,Delancey St / Essex St,M18,M
+e9b2,Flushing Av,M12,M
+934a,Forest Av,M05,M
+435b,Fresh Pond Rd,M04,M
+5ce2,Hewes St,M14,M
+3570,Knickerbocker Av,M09,M
+f25c,Lorimer St,M13,M
+f961,Marcy Av,M16,M
+9d44,Middle Village - Metropolitan Av,M01,M
+f145,Myrtle - Wyckoff Avs,L17,M
+f145,Myrtle - Wyckoff Avs,M08,M
+8942,Myrtle Av,M11,M
+56bd,Seneca Av,M06,M
+f95c,18 Av,N05,N
+ac92,20 Av,N06,N
+529d,30 Av,R04,N
+6854,34 St - Herald Sq,D17,N
+6854,34 St - Herald Sq,R17,N
+a47d,36 Av,R06,N
+38c3,36 St,R36,N
+82e4,39 Av,R08,N
+2d15,49 St,R15,N
+5034,5 Av/59 St,R13,N
+05e1,57 St - 7 Av,R14,N
+f916,59 St,R41,N
+c4f1,62 St / New Utrecht Av,B16,N
+c4f1,62 St / New Utrecht Av,N04,N
+93b3,8 Av,N02,N
+12f5,86 St,N10,N
+5925,Astoria - Ditmars Blvd,R01,N
+0fd1,Astoria Blvd,R03,N
+d2c6,Atlantic Av - Barclays Ctr,235,N
+d2c6,Atlantic Av - Barclays Ctr,D24,N
+d2c6,Atlantic Av - Barclays Ctr,R31,N
+c277,Avenue U,N09,N
+108a,Bay Pkwy,N07,N
+e54a,Broadway,R05,N
+7f0a,Canal St,639,N
+7f0a,Canal St,M20,N
+7f0a,Canal St,Q01,N
+7f0a,Canal St,R23,N
+48f0,Coney Island - Stillwell Av,D43,N
+ba60,Fort Hamilton Pkwy,N03,N
+96bd,Kings Hwy,N08,N
+5f44,Lexington Av/59 St,629,N
+5f44,Lexington Av/59 St,R11,N
+66ce,Queensboro Plaza,718,N
+66ce,Queensboro Plaza,R09,N
+84ac,Times Sq - 42 St,127,N
+84ac,Times Sq - 42 St,725,N
+84ac,Times Sq - 42 St,902,N
+84ac,Times Sq - 42 St,R16,N
+82bd,Union Sq - 14 St,635,N
+82bd,Union Sq - 14 St,L03,N
+82bd,Union Sq - 14 St,R20,N
+6854,34 St - Herald Sq,D17,Q
+6854,34 St - Herald Sq,R17,Q
+05e1,57 St - 7 Av,R14,Q
+7f29,7 Av,D25,Q
+9350,72 St,Q03,Q
+6e3b,86 St,Q04,Q
+12d4,96 St,Q05,Q
+d2c6,Atlantic Av - Barclays Ctr,235,Q
+d2c6,Atlantic Av - Barclays Ctr,D24,Q
+d2c6,Atlantic Av - Barclays Ctr,R31,Q
+a6b2,Avenue H,D32,Q
+71ea,Avenue J,D33,Q
+71ce,Avenue M,D34,Q
+aebd,Avenue U,D37,Q
+1b2e,Beverley Rd,D29,Q
+0132,Brighton Beach,D40,Q
+7f0a,Canal St,639,Q
+7f0a,Canal St,M20,Q
+7f0a,Canal St,Q01,Q
+7f0a,Canal St,R23,Q
+b2e2,Church Av,D28,Q
+48f0,Coney Island - Stillwell Av,D43,Q
+3527,Cortelyou Rd,D30,Q
+52ed,DeKalb Av,R30,Q
+13fd,Kings Hwy,D35,Q
+ab3d,Lexington Av/63 St,B08,Q
+4f3c,Neck Rd,D38,Q
+7268,Newkirk Plaza,D31,Q
+0a02,Ocean Pkwy,D41,Q
+78f3,Parkside Av,D27,Q
+cf15,Prospect Park,D26,Q
+72e2,Sheepshead Bay,D39,Q
+84ac,Times Sq - 42 St,127,Q
+84ac,Times Sq - 42 St,725,Q
+84ac,Times Sq - 42 St,902,Q
+84ac,Times Sq - 42 St,R16,Q
+82bd,Union Sq - 14 St,635,Q
+82bd,Union Sq - 14 St,L03,Q
+82bd,Union Sq - 14 St,R20,Q
+099d,W 8 St - NY Aquarium,D42,Q
+a3a3,23 St,R19,R
+e61d,25 St,R35,R
+ea7e,28 St,R18,R
+6854,34 St - Herald Sq,D17,R
+6854,34 St - Herald Sq,R17,R
+38c3,36 St,R36,R
+7b17,36 St,G20,R
+a9a9,4 Av / 9 St,F23,R
+a9a9,4 Av / 9 St,R33,R
+a081,45 St,R39,R
+1ea4,46 St,G18,R
+2d15,49 St,R15,R
+5034,5 Av/59 St,R13,R
+b8a1,53 St,R40,R
+05e1,57 St - 7 Av,R14,R
+f916,59 St,R41,R
+f3e5,63 Dr - Rego Park,G10,R
+22f3,65 St,G15,R
+5545,67 Av,G09,R
+c6a0,74 St - Broadway - Roosevelt Av,710,R
+c6a0,74 St - Broadway - Roosevelt Av,G14,R
+11c7,77 St,R43,R
+1fd4,8 St - NYU,R21,R
+75ee,86 St,R44,R
+d2c6,Atlantic Av - Barclays Ctr,235,R
+d2c6,Atlantic Av - Barclays Ctr,D24,R
+d2c6,Atlantic Av - Barclays Ctr,R31,R
+7a5d,Bay Ridge - 95 St,R45,R
+5d6e,Bay Ridge Av,R42,R
+4e75,Borough Hall / Court St,232,R
+4e75,Borough Hall / Court St,423,R
+4e75,Borough Hall / Court St,R28,R
+7f0a,Canal St,639,R
+7f0a,Canal St,M20,R
+7f0a,Canal St,Q01,R
+7f0a,Canal St,R23,R
+5f40,City Hall,R24,R
+14b5,Cortlandt St,R25,R
+52ed,DeKalb Av,R30,R
+1953,Elmhurst Av,G13,R
+87ff,Forest Hills - 71 Av,G08,R
+ecbb,Grand Av - Newtown,G12,R
+923c,Jay St - MetroTech,A41,R
+923c,Jay St - MetroTech,R29,R
+5f44,Lexington Av/59 St,629,R
+5f44,Lexington Av/59 St,R11,R
+25fa,Northern Blvd,G16,R
+d008,Prince St,R22,R
+7c33,Prospect Av,R34,R
+ce5b,Queens Plaza,G21,R
+1a2a,Rector St,R26,R
+ecd5,South Ferry Loop / Whitehall St,140,R
+ecd5,South Ferry Loop / Whitehall St,R27,R
+b83f,Steinway St,G19,R
+84ac,Times Sq - 42 St,127,R
+84ac,Times Sq - 42 St,725,R
+84ac,Times Sq - 42 St,902,R
+84ac,Times Sq - 42 St,R16,R
+82bd,Union Sq - 14 St,635,R
+82bd,Union Sq - 14 St,L03,R
+82bd,Union Sq - 14 St,R20,R
+1b5c,Union St,R32,R
+62a4,Woodhaven Blvd,G11,R
+87d2,Grand Central - 42 St,631,S
+87d2,Grand Central - 42 St,723,S
+87d2,Grand Central - 42 St,901,S
+84ac,Times Sq - 42 St,127,S
+84ac,Times Sq - 42 St,725,S
+84ac,Times Sq - 42 St,902,S
+84ac,Times Sq - 42 St,R16,S
+f248,Annadale,S17,SI
+7cc9,Arthur Kill,S11,SI
+a90d,Bay Terrace,S20,SI
+c6e1,Clifton,S28,SI
+951f,Dongan Hills,S25,SI
+e840,Eltingville,S18,SI
+2c9c,Grant City,S23,SI
+478e,Grasmere,S27,SI
+3f21,Great Kills,S19,SI
+6e0b,Huguenot,S16,SI
+9faa,Jefferson Av,S24,SI
+7580,New Dorp,S22,SI
+7c25,Oakwood Heights,S21,SI
+40de,Old Town,S26,SI
+e875,Pleasant Plains,S14,SI
+74a2,Prince's Bay,S15,SI
+688b,Richmond Valley,S13,SI
+69be,St George,S31,SI
+a85e,Stapleton,S29,SI
+c317,Tompkinsville,S30,SI
+5265,Tottenville,S09,SI
+a3a3,23 St,R19,W
+ea7e,28 St,R18,W
+529d,30 Av,R04,W
+6854,34 St - Herald Sq,D17,W
+6854,34 St - Herald Sq,R17,W
+a47d,36 Av,R06,W
+82e4,39 Av,R08,W
+2d15,49 St,R15,W
+5034,5 Av/59 St,R13,W
+05e1,57 St - 7 Av,R14,W
+1fd4,8 St - NYU,R21,W
+5925,Astoria - Ditmars Blvd,R01,W
+0fd1,Astoria Blvd,R03,W
+e54a,Broadway,R05,W
+7f0a,Canal St,639,W
+7f0a,Canal St,M20,W
+7f0a,Canal St,Q01,W
+7f0a,Canal St,R23,W
+5f40,City Hall,R24,W
+14b5,Cortlandt St,R25,W
+5f44,Lexington Av/59 St,629,W
+5f44,Lexington Av/59 St,R11,W
+d008,Prince St,R22,W
+66ce,Queensboro Plaza,718,W
+66ce,Queensboro Plaza,R09,W
+1a2a,Rector St,R26,W
+ecd5,South Ferry Loop / Whitehall St,140,W
+ecd5,South Ferry Loop / Whitehall St,R27,W
+84ac,Times Sq - 42 St,127,W
+84ac,Times Sq - 42 St,725,W
+84ac,Times Sq - 42 St,902,W
+84ac,Times Sq - 42 St,R16,W
+82bd,Union Sq - 14 St,635,W
+82bd,Union Sq - 14 St,L03,W
+82bd,Union Sq - 14 St,R20,W
